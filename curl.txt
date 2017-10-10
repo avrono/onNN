@@ -1,0 +1,5 @@
+
+1. /neurons
+curl -H "Content-Type: application/json" -X POST -d '{"type":"neuron", "id":1 , "name":"TestNeuron", "inputs" : [1,2,2], "weights": [3,3,3], "function":"backprop"}' http://localhost:8081
+2. /build
+curl -H "Content-Type: application/json" -X GET -d '' http://localhost:3334/build
